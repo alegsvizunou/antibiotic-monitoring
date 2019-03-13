@@ -1,0 +1,23 @@
+.form-control {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.row {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+table {
+    word-break: break-all;
+    hyphens: auto;
+}
+
+select {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+body {
+    background-color: #c6c8ca;
+}

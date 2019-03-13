@@ -1,0 +1,37 @@
+{
+  "name": "AntibioticMonitoring",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "AntibioticMonitoring",
+  "main": "app.js",
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "react": "^15.5.0",
+    "react-dom": "^15.3.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-calendar": "^2.15.1",
+    "axios": "^0.15.3",
+    "history": "^4.7.2"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.16.0"
+  }
+}
